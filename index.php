@@ -6,7 +6,7 @@
 <title>Meziefields Investment Services Limited  | Homepage </title>
 
 <!-- Stylesheets -->
-<?php require_once "css.html"; ?>
+<?php require_once "css.php"; ?>
 
 </head>
 
@@ -14,7 +14,7 @@
 
 <div class="page-wrapper">
  	
-    <?php require_once "header.html"; ?>
+    <?php require_once "header.php"; ?>
 
 	<!-- Main Slider Two -->
     <section class="main-slider-two">
@@ -177,9 +177,9 @@
 							<div class="icon-box">
 								<span class="icon flaticon-null"></span>
 							</div>
-							<h4><a href="building-construction.html">Our Vision</a></h4>
+							<h4><a href="building-construction.php">Our Vision</a></h4>
 							<div class="text">Our vision is to be celebrated as one of the formidable and trusted engineering firm in the next decade.</div>
-							<!-- <a href="building-construction.html" class="read-more">READ MORE</a> -->
+							<!-- <a href="building-construction.php" class="read-more">READ MORE</a> -->
 						</div>
 					</div>
 					
@@ -191,9 +191,9 @@
 							<div class="icon-box">
 								<span class="icon flaticon-null-1"></span>
 							</div>
-							<h4><a href="building-construction.html">Our Mission</a></h4>
+							<h4><a href="building-construction.php">Our Mission</a></h4>
 							<div class="text">To provide best quality technical services for government and industries, and indoing so, to earn the highest respect possible for the firm from our clients, suppliersand employees.</div>
-							<!-- <a href="building-construction.html" class="read-more">READ MORE</a> -->
+							<!-- <a href="building-construction.php" class="read-more">READ MORE</a> -->
 						</div>
 					</div>
 					
@@ -205,9 +205,9 @@
 							<div class="icon-box">
 								<span class="icon flaticon-null-2"></span>
 							</div>
-							<h4><a href="building-construction.html">Our Core Value</a></h4>
+							<h4><a href="building-construction.php">Our Core Value</a></h4>
 							<div class="text">To ensure that only qualified engineers and seasoned professionals with requisite experience are engaged.</div>
-							<!-- <a href="building-construction.html" class="read-more">READ MORE</a> -->
+							<!-- <a href="building-construction.php" class="read-more">READ MORE</a> -->
 						</div>
 					</div>
 					
@@ -288,7 +288,7 @@
 					</div>
 					<!-- Column -->
 					<div class="column col-lg-6 col-md-12 col-sm-12">
-						<a href="contact.html" class="theme-btn btn-style-three"><span class="txt">Get in Touch</span></a>
+						<a href="contact.php" class="theme-btn btn-style-three"><span class="txt">Get in Touch</span></a>
 					</div>
 					
 				</div>
@@ -325,7 +325,7 @@
 						<div class="icon-box">
 							<span class="icon flaticon-null-1"></span>
 						</div>
-						<h4><a href="building-construction.html">Architecture</a></h4>
+						<h4><a href="building-construction.php">Architecture</a></h4>
 						<div class="text">We take pride in ensuring that all your architectural needs are met. Every client is presented with state-of-the art designs from  optimised drawings for buildings, malls etc.</div>
 					</div>
 				</div>
@@ -337,7 +337,7 @@
 						<div class="icon-box">
 							<span class="icon flaticon-null-2"></span>
 						</div>
-						<h4><a href="building-construction.html">Civil Engineering</a></h4>
+						<h4><a href="building-construction.php">Civil Engineering</a></h4>
 						<div class="text">We use the latest technology to deliver economy civil/structural designs and detailing for roads, high-rise apartment buildings, shopping malls, plant equipment and building</div>
 					</div>
 				</div>
@@ -349,7 +349,7 @@
 						<div class="icon-box">
 							<span class="icon flaticon-null-4"></span>
 						</div>
-						<h4><a href="building-construction.html">Project Management</a></h4>
+						<h4><a href="building-construction.php">Project Management</a></h4>
 						<div class="text">We make sure we coordinate with client, vendors, process licensors and everything inbetween to ensure your project is effectively managed and transparent as possible.</div>
 					</div>
 				</div>
@@ -361,7 +361,7 @@
 						<div class="icon-box">
 							<span class="icon flaticon-null-6"></span>
 						</div>
-						<h4><a href="material-supply.html">Planning</a></h4>
+						<h4><a href="material-supply.php">Planning</a></h4>
 						<div class="text">From Project plans/schedule/controls, Project monitoring reports to Cost reports and lots more, we ensure that our service is second to none.</div>
 					</div>
 				</div>
@@ -373,7 +373,7 @@
 						<div class="icon-box">
 							<span class="icon flaticon-null-5"></span>
 						</div>
-						<h4><a href="interior-design.html">Procurement Management</a></h4>
+						<h4><a href="interior-design.php">Procurement Management</a></h4>
 						<div class="text">We ensure you have the best of tools, equipppment or whatever it is in other to smooth run your project.</div>
 					</div>
 				</div>
@@ -385,7 +385,7 @@
 						<div class="icon-box">
 							<span class="icon flaticon-null-7"></span>
 						</div>
-						<h4><a href="plan-certification.html">Computer Aided Design</a></h4>
+						<h4><a href="plan-certification.php">Computer Aided Design</a></h4>
 						<div class="text">Having our clients in mind, we offer hazardous Area Classification, Plot plans, Piping layouts and lots more</div>
 					</div>
 				</div>
@@ -536,7 +536,7 @@
   
 	
 	<!-- Main Footer -->
-   <?php require_once "footer.html"; ?>
+   <?php require_once "footer.php"; ?>
 	<!-- End Main Footer -->
 	
 </div>
@@ -544,7 +544,7 @@
 
 
 
-<?php require_once "js.html"; ?>
+<?php require_once "js.php"; ?>
 
 </body>
 

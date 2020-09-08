@@ -6,7 +6,7 @@
 <title>Meziefields Investment Services Limited  | Our Projects</title>
 
 <!-- Stylesheets -->
-<?php require_once "css.html"; ?>
+<?php require_once "css.php"; ?>
 
 </head>
 
@@ -14,14 +14,14 @@
 
 <div class="page-wrapper">
  	
-   <?php require_once "header.html"; ?>
+   <?php require_once "header.php"; ?>
 
 	<!-- Page Title -->
     <section class="page-title" style="background-image: url(images/background/3.jpg)">
     	<div class="auto-container">
 			<h1>Our Projects</h1>
 			<ul class="page-breadcrumb">
-				<li><a href="index.html">home</a></li>
+				<li><a href="index.php">home</a></li>
 				<li>Our Projects</li>
 			</ul>
         </div>
@@ -91,7 +91,7 @@
 					</div>
 					<!-- Column -->
 					<div class="column col-lg-6 col-md-12 col-sm-12">
-						<a href="contact.html" class="theme-btn btn-style-three"><span class="txt">Get in Touch</span></a>
+						<a href="contact.php" class="theme-btn btn-style-three"><span class="txt">Get in Touch</span></a>
 					</div>
 					
 				</div>
@@ -105,7 +105,7 @@
   
 
 	<!-- Main Footer -->
-    <?php require_once "footer.html"; ?>
+    <?php require_once "footer.php"; ?>
 	<!-- End Main Footer -->
 	
 </div>
@@ -113,7 +113,7 @@
 
 
 
-<?php require_once "js.html"; ?>
+<?php require_once "js.php"; ?>
 
 </body>
 

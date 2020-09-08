@@ -9,7 +9,7 @@
 						<div class="footer-widget logo-widget">
 							<div class="widget-content">
 								<div class="logo">
-									<a href="index.html"><img src="images/footer-logo.png" alt="" /></a>
+									<a href="index.php"><img src="images/footer-logo.png" alt="" /></a>
 								</div>
 								<div class="text">
 									<p>MEZIEFIELDS INVESTMENT SERVICES LIMITED provides quality project engineering solutions to clients based on their needs.
@@ -34,19 +34,19 @@
 								<!-- Column -->
 								<div class="column col-lg-6 col-sm-6 col-sm-12">
 									<ul class="list-link">
-										<li><a href="index.html">Home</a></li>
-										<li><a href="about.html">Who we are</a></li>
-										<li><a href="services.html">Our Services</a></li>
-										<li><a href="projects.html">Our Projects</a></li>
+										<li><a href="index.php">Home</a></li>
+										<li><a href="about.php">Who we are</a></li>
+										<li><a href="services.php">Our Services</a></li>
+										<li><a href="projects.php">Our Projects</a></li>
 									</ul>
 								</div>
 								<!-- Column -->
 								<div class="column col-lg-6 col-sm-6 col-sm-12">
 									<ul class="list-link">
-										<li><a href="team.html">Contact Us</a></li>
-										<li><a href="faq.html">Other Aervices</a></li>
-										<li><a href="projects.html">Our Gallery</a></li>
-										<li><a href="contact.html">Oil and Gas</a></li>
+										<li><a href="team.php">Contact Us</a></li>
+										<li><a href="faq.php">Other Aervices</a></li>
+										<li><a href="projects.php">Our Gallery</a></li>
+										<li><a href="contact.php">Oil and Gas</a></li>
 									</ul>
 								</div>
 								

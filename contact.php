@@ -6,7 +6,7 @@
 <title>Meziefields Investment Services Limited  | Contact Us</title>
 
 <!-- Stylesheets -->
-<?php require_once "css.html"; ?>
+<?php require_once "css.php"; ?>
 
 </head>
 
@@ -14,14 +14,15 @@
 
 <div class="page-wrapper">
  	
-   <?php require_once "header.html"; ?>
+   <?php require_once "header.php"; 
+	$notification = $bon->ContactUs(); ?>
 
 	<!-- Page Title -->
     <section class="page-title" style="background-image: url(images/background/3.jpg)">
     	<div class="auto-container">
 			<h1>Contact Us </h1>
 			<ul class="page-breadcrumb">
-				<li><a href="index.html">home</a></li>
+				<li><a href="index.php">home</a></li>
 				<li>Contact Us</li>
 			</ul>
         </div>
@@ -41,10 +42,10 @@
 							<h3>Get in touch</h3>
 							<div class="text">There are many variations of passages of Lorem Ipsum <br> but the majority have suffered.</div>
 						</div>
-						
+						<?php echo $notification; ?>
 						<!-- Default Form -->
 						<div class="default-form contact-form">
-							<form method="post" action="http://html.efforttech.com/html/manzil/sendemail.php" id="contact-form">
+							<form method="post" name = "contact_form" action="" id="contact-form">
 								<div class="form-group">
 									<input type="text" name="name" value="" placeholder="Name" required>
 								</div>
@@ -58,12 +59,13 @@
 								</div>
 								
 								<div class="form-group">
-									<textarea name="message" placeholder="Your Massage"></textarea>
+									<textarea name="message" placeholder="Your Message"></textarea>
 								</div>
 								
 								<div class="form-group text-center">
 									<button type="submit" class="theme-btn btn-style-four"><span class="txt">Send Now</span></button>
 								</div>
+								<input type = 'hidden' name = 'contact_form'/>
 							</form>
 						</div>
 						<!--End Default Form-->
@@ -134,7 +136,7 @@
 	
 
 	<!-- Main Footer -->
-    <?php require_once "footer.html"; ?>
+    <?php require_once "footer.php"; ?>
 	<!-- End Main Footer -->
 	
 </div>
@@ -142,7 +144,7 @@
 
 
 
-<?php require_once "js.html"; ?>
+<?php require_once "js.php"; ?>
 
 </body>
 </html>

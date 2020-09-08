@@ -3,10 +3,9 @@
 
 <head>
 <meta charset="utf-8">
-<title>Meziefields Investment Services Limited | Project Management Services</title>
+<title>Meziefields Investment Services Limited | Architecture</title>
 
-<!-- Stylesheets -->
-<?php require_once "css.html"; ?>
+<?php require_once "css.php"; ?>
 
 </head>
 
@@ -14,14 +13,14 @@
 
 <div class="page-wrapper">
  	
-   <?php require_once "header.html"; ?>
+    <?php require_once "header.php"; ?>
 
 	<!-- Page Title -->
     <section class="page-title" style="background-image: url(images/background/3.jpg)">
     	<div class="auto-container">
-			<h1>Project Management </h1>
+			<h1>Architecture</h1>
 			<ul class="page-breadcrumb">
-				<li><a href="index.html">home</a></li>
+				<li><a href="index.php">home</a></li>
 				<li>Our Service</li>
 			</ul>
         </div>
@@ -42,13 +41,13 @@
 							<div class="widget-content">
 								<ul class="blog-cat">
 									
-									<li><a href="architecture.html">Architecture</a></li>
-									<li><a href="civil_engineering_and_construction.html">Civil Engineering/ Construction</a></li>
-									<li class="active"><a href="project_management.html">Project Management </a></li>
-									<li><a href="planning.html">Planning</a></li>
-									<li><a href="procurement_management_and_assistant.html">Procument Management & Assistant</a></li>
-									<li><a href="cad_drafting.html">CAD/ Drafting</a></li>
-									<li><a href="oil_and_gas.html">Oil and Gas</a></li>
+									<li><a href="architecture.php">Architecture</a></li>
+									<li><a href="civil_engineering_and_construction.php">Civil Engineering/ Construction</a></li>
+									<li><a href="project_management.php">Project Management </a></li>
+									<li><a href="planning.php">Planning</a></li>
+									<li><a href="procurement_management_and_assistant.php">Procument Management & Assistant</a></li>
+									<li><a href="cad_drafting.php">CAD/ Drafting</a></li>
+									<li><a href="oil_and_gas.php">Oil and Gas</a></li>
 								</ul>
 							</div>
 						</div>
@@ -97,32 +96,20 @@
 								<div class="icon-box">
 									<span class="icon flaticon-null-3"></span>
 								</div>
-								<h3>Project Management</h3>
+								<h3>Architecture</h3>
 								<div class="text">
-									<p>Looking for a solid firm with adquate expertise and experience in managing a project? We at MezieField Investment Service Limited are the plug for you. We ensure that all project deliverables are laid out and executed accordingly. We are transparent in all we do and ensure that every client gets the best of service experience.
-									</p>
-
-									<h3>Project Management Services:</h3>
-
-									<div class="row clearfix">
-										<div class="column col-lg-6 col-md-6 col-sm-12">
-											<ul class="list-style-two">
-												<li>Project feasibility report as applicable.</li>
-												<li>Coordination with client, vendors, process licensors.</li>
-												<li>Supervision of engineering procurement construction. </li>
-											</ul>
-										</div>
-										<div class="column col-lg-6 col-md-6 col-sm-12">
-											<ul class="list-style-two">
-												<li>Reports and deliverables to client. </li>
-												<li>Project closeout. </li>
-											</ul>
+									<p>Our design professionals are equipped to help you determine the products and design that work best for our customers within the means. Finding a solid architectural plan can be hard as so many factors come to mind and as a client you would want to have an architecture that could stand the test of time without an hassle ee.g cracks, holes, unsteady foundation and no proper fire exit planning in the event of fire outbreak. We at Meziefield ensures we develop optimised drawings for buildings, offices, malls and state-of-the art designs.</p>
+									
+									<div class="image-gallery">
+										<div class="row clearfix">
+											<div class="column col-lg-6 col-md-6 col-sm-12">
+												<img src="images/resource/service-15.jpg" alt="" />
+											</div>
+											<div class="column col-lg-6 col-md-6 col-sm-12">
+												<img src="images/resource/service-16.jpg" alt="" />
+											</div>
 										</div>
 									</div>
-
-
-
-									
 								</div>
 							</div>
 						</div>
@@ -137,9 +124,9 @@
 	
 	
 	
-
+	
 	<!-- Main Footer -->
-    <?php require_once "footer.html"; ?>
+    <?php require_once "footer.php"; ?>
 	<!-- End Main Footer -->
 	
 </div>
@@ -147,7 +134,7 @@
 
 
 
-<?php require_once "js.html"; ?>
+<?php require_once "js.php"; ?>
 
 </body>
 

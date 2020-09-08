@@ -6,21 +6,21 @@
 <title>Meziefields Investment Services Limited | Error Page</title>
 
 <!-- Stylesheets -->
-<?php require_once "css.html"; ?>
+<?php require_once "css.php"; ?>
 </head>
 
 <body>
 
 <div class="page-wrapper">
  	
-  <?php require_once "header.html"; ?>
+  <?php require_once "header.php"; ?>
 
 	<!-- Page Title -->
     <section class="page-title" style="background-image: url(images/background/3.jpg)">
     	<div class="auto-container">
 			<h1>Not Found</h1>
 			<ul class="page-breadcrumb">
-				<li><a href="index.html">home</a></li>
+				<li><a href="index.php">home</a></li>
 				<li>404</li>
 			</ul>
         </div>
@@ -34,7 +34,7 @@
             	<h1>404</h1>
                 <h2>Oops! That page can’t be found</h2>
                 <div class="text">Sorry, but the page you are looking for does not existing</div>
-                <a href="index.html" class="theme-btn btn-style-three"><span class="txt">Go to home page</span></a>
+                <a href="index.php" class="theme-btn btn-style-three"><span class="txt">Go to home page</span></a>
             </div>
         </div>
     </section>
@@ -44,14 +44,14 @@
 	
 	
 	<!-- Main Footer -->
-    <?php require_once "footer.html"; ?>
+    <?php require_once "footer.php"; ?>
 	<!-- End Main Footer -->
 	
 </div>
 <!--End pagewrapper-->
 
 
-<?php require_once "js.html"; ?>
+<?php require_once "js.php"; ?>
 
 </body>
 

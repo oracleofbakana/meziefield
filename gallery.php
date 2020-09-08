@@ -6,7 +6,7 @@
 <title>Meziefields Investment Services Limited  | Projects</title>
 
 <!-- Stylesheets -->
-<?php require_once "css.html"; ?>
+<?php require_once "css.php"; ?>
 
 </head>
 
@@ -14,7 +14,7 @@
 
 <div class="page-wrapper">
  	
-   <?php require_once "header.html"; ?>
+   <?php require_once "header.php"; ?>
     <!-- End Main Header -->
 
 	<!-- Page Title -->
@@ -22,7 +22,7 @@
     	<div class="auto-container">
 			<h1>Gallery</h1>
 			<ul class="page-breadcrumb">
-				<li><a href="index.html">home</a></li>
+				<li><a href="index.php">home</a></li>
 				<li>Gallery</li>
 			</ul>
         </div>
@@ -73,7 +73,7 @@
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<div class="content">
-											<h6><a href="portfolio-detail.html">Construction Build</a></h6>
+											<h6><a href="portfolio-detail.php">Construction Build</a></h6>
 											<div class="category">Roof Filling</div>
 										</div>
 									</div>
@@ -92,7 +92,7 @@
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<div class="content">
-											<h6><a href="portfolio-detail.html">Construction Build</a></h6>
+											<h6><a href="portfolio-detail.php">Construction Build</a></h6>
 											<div class="category">Roof Filling</div>
 										</div>
 									</div>
@@ -111,7 +111,7 @@
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<div class="content">
-											<h6><a href="portfolio-detail.html">Construction Build</a></h6>
+											<h6><a href="portfolio-detail.php">Construction Build</a></h6>
 											<div class="category">Roof Filling</div>
 										</div>
 									</div>
@@ -130,7 +130,7 @@
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<div class="content">
-											<h6><a href="portfolio-detail.html">Construction Build</a></h6>
+											<h6><a href="portfolio-detail.php">Construction Build</a></h6>
 											<div class="category">Roof Filling</div>
 										</div>
 									</div>
@@ -149,7 +149,7 @@
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<div class="content">
-											<h6><a href="portfolio-detail.html">Construction Build</a></h6>
+											<h6><a href="portfolio-detail.php">Construction Build</a></h6>
 											<div class="category">Roof Filling</div>
 										</div>
 									</div>
@@ -168,7 +168,7 @@
 								<div class="overlay-box">
 									<div class="overlay-inner">
 										<div class="content">
-											<h6><a href="portfolio-detail.html">Construction Build</a></h6>
+											<h6><a href="portfolio-detail.php">Construction Build</a></h6>
 											<div class="category">Roof Filling</div>
 										</div>
 									</div>
@@ -199,7 +199,7 @@
 	
 
 	<!-- Main Footer -->
-    <?php require_once "footer.html"; ?>
+    <?php require_once "footer.php"; ?>
 	<!-- End Main Footer -->
 	
 </div>
@@ -207,7 +207,7 @@
 
 
 
-<?php require_once "js.html"; ?>
+<?php require_once "js.php"; ?>
 
 </body>
 

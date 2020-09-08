@@ -6,7 +6,8 @@
 <meta charset="utf-8">
 <title>Meziefields Investment Services Limited | About Us</title>
 
-<?php require_once "css.html"; ?>
+<?php 
+require_once "css.php"; ?>
 
 </head>
 
@@ -14,14 +15,14 @@
 
 <div class="page-wrapper">
  	
-   <?php require_once "header.html"; ?>
+   <?php require_once "header.php"; ?>
 
 	<!-- Page Title -->
     <section class="page-title" style="background-image: url(images/background/3.jpg)">
     	<div class="auto-container">
 			<h1>About Us</h1>
 			<ul class="page-breadcrumb">
-				<li><a href="index.html">home</a></li>
+				<li><a href="index.php">home</a></li>
 				<li>About us</li>
 			</ul>
         </div>
@@ -53,7 +54,7 @@
 				<!-- Content Column -->
 				<div class="content-column col-lg-4 col-md-12 col-sm-12">
 					<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<h3><a href="about.html">Committed to superior quality and results.</a></h3>
+						<h3><a href="about.php">Committed to superior quality and results.</a></h3>
 						<div class="text">MEZIEFIELDS INVESTMENT SERVICES LIMITED, is a corporate and wholly indigenous private limited liability company which was registered and incorporated on 10th November, 2011 with RCnumber: 992703 under the law of the Federal Republic of Nigeria in accordance with the company decree 1968 as amended in the companies and allied matters decree 1990.</div>
 					</div>
 				</div>
@@ -153,7 +154,7 @@
 					</div>
 					<!-- Column -->
 					<div class="column col-lg-6 col-md-12 col-sm-12">
-						<a href="contact.html" class="theme-btn btn-style-three"><span class="txt">Get in Touch</span></a>
+						<a href="contact.php" class="theme-btn btn-style-three"><span class="txt">Get in Touch</span></a>
 					</div>
 					
 				</div>
@@ -339,7 +340,7 @@
     <!-- End Clients Section -->
 	
 	<!-- Main Footer / Style Two -->
-    <?php require_once "footer.html"; ?>
+    <?php require_once "footer.php"; ?>
 	<!-- End Main Footer -->
 	
 </div>
@@ -348,7 +349,7 @@
 
 
 
-<?php require_once "js.html"; ?>
+<?php require_once "js.php"; ?>
 
 </body>
 

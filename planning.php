@@ -3,10 +3,10 @@
 
 <head>
 <meta charset="utf-8">
-<title>Meziefields Investment Services Limited | Civil Engineering/Construction</title>
+<title>Meziefields Investment Services Limited | Planning</title>
 
 <!-- Stylesheets -->
-<?php require_once "css.html"; ?>
+<?php require_once "css.php"; ?>
 
 </head>
 
@@ -14,14 +14,14 @@
 
 <div class="page-wrapper">
  	
-   <?php require_once "header.html"; ?>
+   <?php require_once "header.php"; ?>
 
 	<!-- Page Title -->
     <section class="page-title" style="background-image: url(images/background/3.jpg)">
     	<div class="auto-container">
-			<h1>Civil Engineering/Construction</h1>
+			<h1>Planning</h1>
 			<ul class="page-breadcrumb">
-				<li><a href="index.html">home</a></li>
+				<li><a href="index.php">home</a></li>
 				<li>Our Service</li>
 			</ul>
         </div>
@@ -42,13 +42,13 @@
 							<div class="widget-content">
 								<ul class="blog-cat">
 									
-									<li ><a href="architecture.html">Architecture</a></li>
-									<li class="active"><a href="civil_engineering_and_construction.html">Civil Engineering/ Construction</a></li>
-									<li><a href="project_management.html">Project Management </a></li>
-									<li><a href="planning.html">Planning</a></li>
-									<li><a href="procurement_management_and_assistant.html">Procument Management & Assistant</a></li>
-									<li><a href="cad_drafting.html">CAD/ Drafting</a></li>
-									<li><a href="oil_and_gas.html">Oil and Gas</a></li>
+									<li><a href="architecture.php">Architecture</a></li>
+									<li><a href="civil_engineering_and_construction.php">Civil Engineering/ Construction</a></li>
+									<li ><a href="project_management.php">Project Management </a></li>
+									<li class="active"><a href="planning.php">Planning</a></li>
+									<li><a href="procurement_management_and_assistant.php">Procument Management & Assistant</a></li>
+									<li><a href="cad_drafting.php">CAD/ Drafting</a></li>
+									<li><a href="oil_and_gas.php">Oil and Gas</a></li>
 								</ul>
 							</div>
 						</div>
@@ -97,50 +97,23 @@
 								<div class="icon-box">
 									<span class="icon flaticon-null-3"></span>
 								</div>
-								<h3>Civil Engineering </h3>
+								<h3>Planning</h3>
 								<div class="text">
-									<p>We use the latest technology to deliver economy
-										civil/structural designs and detailing for roads,
-										high-rise apartment buildings, shopping malls,
-										plant equipment and building etc. We do detailed
-										three-dimensional modelling of the structure
-										which includes modelling of all the main
-										components of the structure. This detailed modelling
-										gives a fairly accurate estimate of the behaviour of the actual structure. The
-										structure is modelled using any of the analysis software such as ETABS,
-										QUICKCIVIL and STAAD Pro. The detailed drawings are prepared using the
-										latest version of AutoCAD.
+									<p>We ensure that all project planning, monitoring, reports etc are executed transparently. All our services are done with transperancy, deligience and experience. With our extensive years of experience we are certain that we can deliver on any of project plans from start to finish.
 									</p>
 
-									<h3>Project Management Services:</h3>
-
-									<div class="row clearfix">
-										<div class="column col-lg-6 col-md-6 col-sm-12">
-											<ul class="list-style-two">
-												<li>Concept designs of roads, culvert and other underground layout.</li>
-												<li>Structural drawings (Foundations, building etc.)</li>
-												<li>Detailed civil layouts.</li>
-											</ul>
-										</div>
-										<div class="column col-lg-6 col-md-6 col-sm-12">
-											<ul class="list-style-two">
-												<li>Detailed structural drawings.</li>
-												<li>Civil contract tender specifications.</li>
-											</ul>
-										</div>
-									</div>
-
-
-									<h3>Construction Services:</h3>
+									<h3>Planning Services:</h3>
 
 									<div class="row clearfix">
 										<div class="column col-lg-12 col-md-12 col-sm-12">
 											<ul class="list-style-two">
-												<li>Constructability report.</li>
-												<li>Construction supervision.</li>
+												<li>Project plans/schedule/controls.</li>
+												<li>Project monitoring reports</li>
+												<li>Cost reports </li>
 											</ul>
 										</div>
 									</div>
+
 
 
 									
@@ -157,10 +130,9 @@
 	</div>
 	
 	
-	
-	
+
 	<!-- Main Footer -->
-    <?php require_once "footer.html"; ?>
+    <?php require_once "footer.php"; ?>
 	<!-- End Main Footer -->
 	
 </div>
@@ -168,7 +140,7 @@
 
 
 
-<?php require_once "js.html"; ?>
+<?php require_once "js.php"; ?>
 
 </body>
 

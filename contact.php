@@ -62,6 +62,8 @@
 									<textarea name="message" placeholder="Your Message"></textarea>
 								</div>
 								
+								<div class="form-group g-recaptcha" data-sitekey="6LfbZcoZAAAAADLXYo667UQSsSyq1idHJsOvfRFZ"></div>
+								
 								<div class="form-group text-center">
 									<button type="submit" class="theme-btn btn-style-four"><span class="txt">Send Now</span></button>
 								</div>

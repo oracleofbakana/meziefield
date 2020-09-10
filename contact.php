@@ -40,7 +40,7 @@
 						<!-- Title Box -->
 						<div class="title-box">
 							<h3>Get in touch</h3>
-							<div class="text">There are many variations of passages of Lorem Ipsum <br> but the majority have suffered.</div>
+							<div class="text">Ready to for that project? Yes we are. Please fill in the form below and we would get back to you shortly.</div>
 						</div>
 						<?php echo $notification; ?>
 						<!-- Default Form -->
@@ -81,7 +81,7 @@
 						<!-- Title Box -->
 						<div class="title-box">
 							<h3>Contact Information</h3>
-							<div class="text">There are many variations of passages of Lorem Ipsum <br> but the majority have suffered.</div>
+							<div class="text">For more information about our product and service, reach us on the information below and we will be be happy to help.</div>
 						</div>
 						
 						<ul class="contact-info">

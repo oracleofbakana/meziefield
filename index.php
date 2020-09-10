@@ -42,7 +42,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<h1>The Best Company For Residential <br> And Commercial Roofing</h1>
+                    	<h1>The Best Company For Civil <br>Engineering And Construction</h1>
                     </div>
                     
                     <div class="tp-caption" 
@@ -61,7 +61,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text">All our work is based on the foundingprinciples of quality construction, <br> economy, hard work, and integrity.</div>
+                    	<div class="text">All our work is based on the finding principles of quality construction, <br> hard work, and integrity in any project embarked on.</div>
                     </div>
                     
                     <div class="tp-caption tp-resizeme" 
@@ -81,8 +81,8 @@
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
                     	<div class="btns-box text-center">
-							<a href="#" class="theme-btn btn-style-three"><span class="txt">Our Services</span></a>
-                    		<a href="#" class="theme-btn btn-style-two"><span class="txt">Join Us Now</span></a>
+							<a href="civil_engineering_and_construction.php" class="theme-btn btn-style-three"><span class="txt">Our Services</span></a>
+                    		<a href="contact.php" class="theme-btn btn-style-two"><span class="txt">Get In Touch</span></a>
                         </div>
                     </div>
 					
@@ -107,7 +107,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<h1>The Best Company For Residential <br> And Commercial Roofing</h1>
+                    	<h1>Ultra Modern Architectural <br>Designs With Standards</h1>
                     </div>
                     
                     <div class="tp-caption" 
@@ -126,7 +126,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    	<div class="text">All our work is based on the foundingprinciples of quality construction, <br> economy, hard work, and integrity.</div>
+                    	<div class="text">We work diligently and with experience to bring you the best of designs and strutures that speaks direectly to you while maintaing high level of expertise and professionlism</div>
                     </div>
                     
                     <div class="tp-caption tp-resizeme" 
@@ -225,7 +225,7 @@
 				<div class="image-column col-lg-7 col-md-12 col-sm-12">
 					<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
-							<img src="images/resource/reason-1.jpg" alt="" />
+							<img src="images/home_img.jpg" alt="" />
 						</div>
 						<div class="image-text">
 							<div class="text">We Build The Future, <br> Restoring The Post</div>
@@ -443,7 +443,7 @@
 					<div class="image-column col-lg-6 col-md-12 col-sm-12">
 						<div class="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
 							<div class="image">
-								<img src="images/resource/quote.png" alt="" />
+								<img src="images/tractor.png" alt="" />
 							</div>
 						</div>
 					</div>

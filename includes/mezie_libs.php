@@ -480,7 +480,7 @@ public function __construct(){
 				else{
 					//echo 'Yes'; exit();
 					$from = "hello@heliumwriters.com";
-					$to = "dkw.dapper@gmail.com";
+					$to = "fiafiam20@gmail.com";
 					$subject = $subject;
 					$altbody			 		= 			"Open with HTML Browser";
 
@@ -488,11 +488,11 @@ public function __construct(){
 					<html>
 					<body>
 					   <p>
-					    <h3><strong>Hi, William!</strong></h3></br></br>
+					    <h3><strong>Hi, MezieField Investment Service Limited!</strong></h3></br></br>
                                
-                                <strong>$name </strong> has indicated interest for $subject<br/><br/>
+                                <strong>$name </strong> has sent a message from your contact form $subject<br/><br/>
                                
-								Below are the registration details of the participant:<br/>
+								Below are their details and inquiry:<br/>
 								Full Name:		$name<br/>
 
 								Email Address: 		$email<br/>
@@ -501,11 +501,11 @@ public function __construct(){
 
 								Message: 			$message<br/>
 
-								Do well to contact the participant on the next step to follow. <br/><br/>
+								Do well to contact the client on the next step to follow. <br/><br/>
                                
                                 Sincerely,<br/>
-                                <strong>The Helium Writers Team</strong><br/>
-                                http://www.heliumwriters.com
+                                <strong>MezieField Team</strong><br/>
+                                http://www.meziefield.com
 					</body>
 					</html>";
 					$headers = "From: $from\n";
@@ -550,7 +550,7 @@ public function __construct(){
 
 		//	$mail->SMTPDebug = PHPMailer\PHPMailer\SMTP::DEBUG_SERVER;                                
 			//Recipients
-			$mail->setFrom($from, 'Bonjour Dapper Team');
+			$mail->setFrom($from, 'MezieField Team');
 
 			//$addresses = explode(',', $email);
     		foreach ($email as $index=> $to_address) {
@@ -560,7 +560,7 @@ public function __construct(){
      		  // echo $fullname[$index];  echo "<br>";
     		}
 			//$mail->addAddress($to, $to_name);     				// Add a recipient
-			$mail->addReplyTo('dapper@bonjourdapper.com', 'William Dapper');
+			$mail->addReplyTo('fiafiam20@gmail.com', 'MezieField Investment Service Limited');
 		//	$mail->addCC('bonjourdapper@gmail.com');
 			//$mail->addBCC('fiafiam20@gmail.com');
 		

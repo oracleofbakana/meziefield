@@ -80,7 +80,7 @@
 
 									<li ><a href="our_projects.php">Our Projects</a></li>
 
-									<li ><a href="gallery.php">Gallery</a></li>
+									<li ><a href="#">Gallery</a></li>
 
 
 									<li ><a href="contact.php">Contact Us</a>

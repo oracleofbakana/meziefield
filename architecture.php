@@ -41,7 +41,7 @@
 							<div class="widget-content">
 								<ul class="blog-cat">
 									
-									<li><a href="architecture.php">Architecture</a></li>
+									<li class="active"><a href="architecture.php">Architecture</a></li>
 									<li><a href="civil_engineering_and_construction.php">Civil Engineering/ Construction</a></li>
 									<li><a href="project_management.php">Project Management </a></li>
 									<li><a href="planning.php">Planning</a></li>
@@ -90,7 +90,7 @@
                 	<div class="service-detail">
 						<div class="inner-box">
 							<div class="image">
-								<img src="images/resource/service-14.jpg" alt="" />
+								<img src="images/arch.jpg" alt="" />
 							</div>
 							<div class="lower-content">
 								<div class="icon-box">
@@ -100,7 +100,7 @@
 								<div class="text">
 									<p>Our design professionals are equipped to help you determine the products and design that work best for our customers within the means. Finding a solid architectural plan can be hard as so many factors come to mind and as a client you would want to have an architecture that could stand the test of time without an hassle ee.g cracks, holes, unsteady foundation and no proper fire exit planning in the event of fire outbreak. We at Meziefield ensures we develop optimised drawings for buildings, offices, malls and state-of-the art designs.</p>
 									
-									<div class="image-gallery">
+									<!-- <div class="image-gallery">
 										<div class="row clearfix">
 											<div class="column col-lg-6 col-md-6 col-sm-12">
 												<img src="images/resource/service-15.jpg" alt="" />
@@ -109,7 +109,7 @@
 												<img src="images/resource/service-16.jpg" alt="" />
 											</div>
 										</div>
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>

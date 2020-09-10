@@ -63,7 +63,7 @@ require_once "css.php"; ?>
 				<div class="image-column col-lg-8 col-md-12 col-sm-12">
 					<div class="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
-							<img src="images/resource/about-2.jpg" alt="" />
+							<img src="images/about.jpg" alt="" />
 						</div>
 					</div>
 				</div>
@@ -171,7 +171,7 @@ require_once "css.php"; ?>
 				<div class="image-column col-lg-7 col-md-12 col-sm-12">
 					<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
-							<img src="images/resource/reason-1.jpg" alt="" />
+							<img src="images/home_img.jpg" alt="" />
 						</div>
 						<div class="image-text">
 							<div class="text">We Build The Future, <br> Restoring The Post</div>

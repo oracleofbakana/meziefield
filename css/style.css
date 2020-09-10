@@ -1182,7 +1182,7 @@ img{
 .header-top-two{
 	position:relative;
 	padding:11px 0px;
-	background-color:#055213;
+	background-color:#0e0e0e;
 }
 
 .header-top-two .inner-container{
@@ -1503,7 +1503,7 @@ img{
 
 .sticky-header .main-menu .navigation > li > a:before{
 	font-family: 'FontAwesome';
-    content: "\f107";
+    /*content: "\f107";*/
     position: absolute;
     right: 0px;
 	color:#222222;
@@ -2283,16 +2283,16 @@ img{
 .main-header.header-style-two .header-lower .logo-box:before{
 	position:absolute;
 	content:'';
-	right:-30px;
+	right:-100px;
 	top:0px;
 	bottom:0px;
-	width:200%;
-	background-image: -ms-linear-gradient(left, #1a1b1a 0%, #040404 100%);
-	background-image: -moz-linear-gradient(left, #1a1b1a 0%, #040404 100%);
-	background-image: -o-linear-gradient(left, #1a1b1a 0%, #040404 100%);
-	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #1a1b1a), color-stop(100, #040404));
-	background-image: -webkit-linear-gradient(left, #1a1b1a 0%, #040404 100%);
-	background-image: linear-gradient(to right, #1a1b1a 0%, #040404  100%);
+	width:400%;
+	background-image: -ms-linear-gradient(left, #055213 0%, #021d07 100%);
+	background-image: -moz-linear-gradient(left, #055213 0%, #021d07 100%);
+	background-image: -o-linear-gradient(left, #055213 0%, #021d07 100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #055213), color-stop(100, #021d07));
+	background-image: -webkit-linear-gradient(left, #055213 0%, #021d07 100%);
+	background-image: linear-gradient(to right, #055213 0%, #021d07  100%);
 }
 
 .main-header.header-style-two .main-menu .navigation > li > a{
@@ -5555,6 +5555,7 @@ img{
 	color:#222222;
 	font-size:16px;
 	font-weight:500;
+	text-align: right
 }
 
 .main-footer .footer-bottom .copyright a{

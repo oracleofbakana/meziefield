@@ -46,7 +46,7 @@
 									<li><a href="civil_engineering_and_construction.php">Civil Engineering/ Construction</a></li>
 									<li ><a href="project_management.php">Project Management </a></li>
 									<li ><a href="planning.php">Planning</a></li>
-									<li class="active"><a href="procurement_management_and_assistant.php">Procument Management & Assistant</a></li>
+									<li class="active"><a href="procurement_management_and_assistant.php">Procurment Management & Assistant</a></li>
 									<li><a href="cad_drafting.php">CAD/ Drafting</a></li>
 									<li><a href="oil_and_gas.php">Oil and Gas</a></li>
 								</ul>
@@ -91,7 +91,7 @@
                 	<div class="service-detail">
 						<div class="inner-box">
 							<div class="image">
-								<img src="images/resource/service-14.jpg" alt="" />
+								<img src="images/procurment.jpg" alt="" />
 							</div>
 							<div class="lower-content">
 								<div class="icon-box">

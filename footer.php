@@ -9,7 +9,7 @@
 						<div class="footer-widget logo-widget">
 							<div class="widget-content">
 								<div class="logo">
-									<a href="index.php"><img src="images/footer-logo.png" alt="" /></a>
+									<a href="index.php"><img src="images/logo_3.png" alt="" /></a>
 								</div>
 								<div class="text">
 									<p>MEZIEFIELDS INVESTMENT SERVICES LIMITED provides quality project engineering solutions to clients based on their needs.
@@ -32,21 +32,27 @@
 							<h4>Useful Links</h4>
 							<div class="row clearfix">
 								<!-- Column -->
-								<div class="column col-lg-6 col-sm-6 col-sm-12">
+								<!-- <div class="column col-lg-6 col-sm-6 col-sm-12">
 									<ul class="list-link">
 										<li><a href="index.php">Home</a></li>
 										<li><a href="about.php">Who we are</a></li>
-										<li><a href="services.php">Our Services</a></li>
 										<li><a href="projects.php">Our Projects</a></li>
 									</ul>
-								</div>
+								</div> -->
 								<!-- Column -->
-								<div class="column col-lg-6 col-sm-6 col-sm-12">
+								<div class="column col-lg-12 col-sm-12 col-sm-12">
 									<ul class="list-link">
-										<li><a href="team.php">Contact Us</a></li>
-										<li><a href="faq.php">Other Aervices</a></li>
-										<li><a href="projects.php">Our Gallery</a></li>
-										<li><a href="contact.php">Oil and Gas</a></li>
+										<li><a href="architecture.php">Architecture</a></li>
+										<li><a href="civil_engineering_and_construction.php">Civil Engineering/ Construction</a></li>
+										<li><a href="project_management.php">Project Management </a></li>
+										<li><a href="planning.php">Planning</a></li>
+										<li><a href="procurement_management_and_assistant.php">Procument Management & Assistant</a></li>
+										<li><a href="cad_drafting.php">CAD/ Drafting</a></li>
+										<li><a href="oil_and_gas.php">Oil and Gas</a></li>
+
+										<li><a href="index.php">Home</a></li>
+										<li><a href="about.php">Who we are</a></li>
+										<li><a href="projects.php">Our Projects</a></li>
 									</ul>
 								</div>
 								
@@ -75,6 +81,11 @@
 									<strong>Working Hours</strong>
 									Mon-Sat:9.30am To 7.00pm
 								</li>
+								<li>
+									<span class="icon flaticon-telephone"></span>
+									<strong>Phone</strong>
+									<a href="tel:+234 803 340 1735">+234 803 340 1735</a>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -89,11 +100,11 @@
 				<div class="row clearfix">
 					<!-- Column -->
 					<div class="column col-lg-6 col-md-12 col-sm-12">
-						<div class="copyright">&copy; All rights reserved by <a href="/">MezieFields Investment Service Limited</a></div>
+						<div class="copyright">&copy; <?php echo date('Y'); ?> All rights reserved by <a href="/">MezieFields Investment Service Limited</a></div>
 					</div>
 					<!-- Column -->
 					<div class="column col-lg-6 col-md-12 col-sm-12">
-						<div class="copyright">&copy; Designed By <a href="/">Bonjour Dapper</a></div>
+						<div class="copyright">&copy; Designed By <a href="www.bonjourdapper.com" target="_blank">Bonjour Dapper</a></div>
 					</div>
 				</div>
 			</div>

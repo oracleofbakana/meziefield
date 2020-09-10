@@ -7,7 +7,7 @@
 		 
 	 $db_name = "meziefield";
 	 $db_username = "root";
-	 $db_password = "HeliumWriters@May@2020";
+	 $db_password = "";
 		
 		
 

@@ -91,7 +91,7 @@
                 	<div class="service-detail">
 						<div class="inner-box">
 							<div class="image">
-								<img src="images/resource/service-14.jpg" alt="" />
+								<img src="images/planning.jpg" alt="" />
 							</div>
 							<div class="lower-content">
 								<div class="icon-box">

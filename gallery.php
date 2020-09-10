@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>Meziefields Investment Services Limited  | Projects</title>
+<title>Meziefields Investment Services Limited  | Gallery</title>
 
 <!-- Stylesheets -->
 <?php require_once "css.php"; ?>

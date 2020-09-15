@@ -16,7 +16,7 @@
 <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
 <script src="js/main-slider-script.js"></script>
-<script src='https://www.google.com/recaptcha/api.js' async defer >
+<script src='https://www.google.com/recaptcha/api.js' async defer > </script>
 
 
 <script src="js/popper.min.js"></script>

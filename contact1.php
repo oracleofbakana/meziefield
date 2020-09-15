@@ -30,9 +30,8 @@
     </section>
     <!-- End Page Title -->
 	<?php
-	$captcha_rand = $bon->generate_random_captcha();
 	$notification = "";
-	if(isset($_POST['contact_form'])) $notification = $bon->ContactUs();
+	if(isset($_POST['contact_form'])) $notification = $bon->ContactUs1();
 	?>
 	<!-- Contact Page Section -->
     <section class="contact-page-section">
@@ -67,21 +66,11 @@
 									<textarea name="message" placeholder="Your Message"></textarea>
 								</div>
 								
-								<div class="form-group">
-									<div class="col-md-3">
-										<label for="exampleInputEmail1">Captcha&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $captcha_rand;?>  </label>
-									</div>
-									<div class=" col-md-6">
-										<input type="text" placeholder="Enter The Number Seen" name = "captcha" required>
-									</div>
-								</div>
-								
-								<!--<div class="form-group g-recaptcha" data-sitekey="6LdO5coZAAAAAMhtXQk8Ph7a7w0Qz2bhrNMArDQd"></div> -->
+								<div class="form-group g-recaptcha" data-sitekey="6LdO5coZAAAAAMhtXQk8Ph7a7w0Qz2bhrNMArDQd"></div>
 															
 								<div class="form-group text-center">
 									<button type="submit" class="theme-btn btn-style-four"><span class="txt">Send Now</span></button>
 								</div>
-								<?php echo "<input type = 'hidden' name = 'captcha_rand_value' value =$captcha_rand />"; ?>
 								<input type = 'hidden' name = 'contact_form'>
 							</form>
 						</div>

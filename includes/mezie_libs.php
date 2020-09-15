@@ -400,6 +400,11 @@ public function __construct(){
 
 	//MAIN FUNCTION BEGINS HERE
 	
+	public function generate_random_captcha($num = 0){
+		$num = rand(1000, 999999);
+		return $num;
+	}
+	
 	public function sendmail($from, $to, $to_name, $subject,$message,$altbody){
 		// Instantiation and passing `true` enables exceptions
 		$mail = new PHPMailer\PHPMailer\PHPMailer(true);
@@ -417,15 +422,15 @@ public function __construct(){
 			);
 			$mail->Host       = 'localhost';               // Set the SMTP server to send through
 			$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-			$mail->Username   = 'hello@heliumwriters.com';                             // SMTP username
-			$mail->Password   = 'Helium@May@2020';                       // SMTP password
+			$mail->Username   = 'info@meziefields.com';                             // SMTP username
+			$mail->Password   = 'Meziefields123.';                       // SMTP password
 			//$mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
 			$mail->Port       = 25;                                    // TCP port to connect to
 
 			//Recipients
-			$mail->setFrom($from, 'Helium Writers Team');
+			$mail->setFrom($from, 'Meziefield Investment');
 			$mail->addAddress($to, $to_name);     				// Add a recipient
-			$mail->addReplyTo('hello@heliumwriters.com', 'William Dapper');
+			$mail->addReplyTo('info@meziefields.com', 'William Dapper');
 			$mail->addCC('dkw.dapper@gmail.com');
 		
 			// Content
@@ -447,76 +452,113 @@ public function __construct(){
 
 	
     public function ContactUs(){
-        try{
-                if (isset($_POST['contact_form'])){
-				$name							    = $this->wordify($_POST['name'],0);
-				$email							    = $this->wordify($_POST['email'],1);
-                $subject							= $this->wordify($_POST['subject'],1);
+		try{
+                /* if (isset($_POST['contact_form']) &&(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response']))){ */
+				if (isset($_POST['contact_form'])){
+				
+				$name							    = 	$this->wordify($_POST['name'],0);
+				
+				$email							    = 	$this->wordify($_POST['email'],1);
+                $subject							= 	$this->wordify($_POST['subject'],1);
                 //$phone							    = $this->wordify($_POST['phone']);
-                $message							= $this->wordify($_POST['message'], 1);
-                $time_contacted                     = Date('Y-m-d h:m:i');
-                
-                $query = 	"insert into mezie_contact SET
-                        customer_name				=	:customer_name,
-                        customer_email				=	:customer_email,
-                       
-                        subject     				=	:subject,
-                        customer_message			=	:customer_message,
-                      	time_contacted 				= 	:time_contacted";
-				//echo $query; exit();
-				// prepare query for execution
-				$stmt = $this->con->prepare($query);
-				$stmt->bindParam(':customer_name', $name);		
-				$stmt->bindParam(':customer_email', $email);		
-				//$stmt->bindParam(':customer_phone', $phone);		
-                $stmt->bindParam(':subject', $subject);	
-                $stmt->bindParam(':customer_message', $message);	
-                $stmt->bindParam(':time_contacted', $time_contacted);	
+                $message							= 	$this->wordify($_POST['message'], 1);
+                $time_contacted                     = 	Date('Y-m-d h:m:i');
+				$captcha							=		(int)$_POST['captcha'];
+				$captcha_rand						= 	(int)$_POST['captcha_rand_value'];//random value generated and sent to user to input
+				$captcha_success                    = "";
+				$captcha != $captcha_rand?$this->goto_notify(1, "Captcha verification failed!, You're a robot"):$captcha_success = 1;
+				/* $secret = '6LdO5coZAAAAAIbGjoaJceoaAM8Yjm2OGS74gmlN';
+				$response= $_POST['g-recaptcha-response'];
+				$url = 'https://www.google.com/recaptcha/api/siteverify';
+				$data = array(
+					'secret' => $secret,
+					'response' => $response
+				);
+				
+				$options = array(
+					'http' => array (
+						'method' => 'POST',
+						'content' => http_build_query($data)
+					)
+				);
+				$context  = stream_context_create($options);
+				$verify = file_get_contents($url, false, $context);
+				file_put_contents( "log.txt",  $verify, FILE_APPEND );
+
+				$captcha_success=json_decode($verify, true); */
+				
+				//$verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$response);
+				/* file_put_contents( "log.txt",  $verifyResponse, FILE_APPEND );
+				//return $responseData = json_decode($verifyResponse);
+                if($responseData->success){ */
+				if($captcha_success == 1){
+						   $query = 	"insert into mezie_contact SET
+								customer_name				=	:customer_name,
+								customer_email				=	:customer_email,
+							   
+								subject     				=	:subject,
+								customer_message			=	:customer_message,
+								time_contacted 				= 	:time_contacted";
+						//echo $query; exit();
+						// prepare query for execution
+						$stmt = $this->con->prepare($query);
+						$stmt->bindParam(':customer_name', $name);		
+						$stmt->bindParam(':customer_email', $email);		
+						//$stmt->bindParam(':customer_phone', $phone);		
+						$stmt->bindParam(':subject', $subject);	
+						$stmt->bindParam(':customer_message', $message);	
+						$stmt->bindParam(':time_contacted', $time_contacted);	
 
 
-                if(!$stmt->execute()){
-					return $this->just_notify("Oops! There's an error.",2);
+						if(!$stmt->execute()){
+							return $this->just_notify("Oops! There's an error.",2);
+						}
+						else{
+							//echo 'Yes'; exit();
+							$from = "hello@meziefieldinvestment.com";
+							$to = "fiafiam20@gmail.com";
+							$subject = $subject;
+							$altbody			 		= 			"Open with HTML Browser";
+
+							$message = "
+							<html>
+							<body>
+							   <p>
+								<h3><strong>Hi, MezieField Investment Service Limited!</strong></h3></br></br>
+									   
+										<strong>$name </strong> has sent a message from your contact form $subject<br/><br/>
+									   
+										Below are their details and inquiry:<br/>
+										Full Name:		$name<br/>
+
+										Email Address: 		$email<br/>
+
+										Subject:			$subject<br/>
+
+										Message: 			$message<br/>
+
+										Do well to contact the client on the next step to follow. <br/><br/>
+									   
+										Sincerely,<br/>
+										<strong>MezieField Team</strong><br/>
+										http://www.meziefield.com
+							</body>
+							</html>";
+							$headers = "From: $from\n";
+							$headers .= "MIME-Version: 1.0\n";
+							$headers .= "Content-type: text/html; charset=iso-8859-1\n";
+							// SEND EMAIL
+							$this->sendmail($from, $to, $name, $subject,$message,$altbody);
+							return $this->just_notify("Thank you for contacting Meziefield Investment Services. We would get in touch with you shortly.");
+						}
 				}
 				else{
-					//echo 'Yes'; exit();
-					$from = "hello@heliumwriters.com";
-					$to = "fiafiam20@gmail.com";
-					$subject = $subject;
-					$altbody			 		= 			"Open with HTML Browser";
+					$errMsg = 'Robot verification failed, please try again.';
+					return $this->goto_notify(1, $errMsg);
 
-					$message = "
-					<html>
-					<body>
-					   <p>
-					    <h3><strong>Hi, MezieField Investment Service Limited!</strong></h3></br></br>
-                               
-                                <strong>$name </strong> has sent a message from your contact form $subject<br/><br/>
-                               
-								Below are their details and inquiry:<br/>
-								Full Name:		$name<br/>
-
-								Email Address: 		$email<br/>
-
-								Subject:			$subject<br/>
-
-								Message: 			$message<br/>
-
-								Do well to contact the client on the next step to follow. <br/><br/>
-                               
-                                Sincerely,<br/>
-                                <strong>MezieField Team</strong><br/>
-                                http://www.meziefield.com
-					</body>
-					</html>";
-					$headers = "From: $from\n";
-					$headers .= "MIME-Version: 1.0\n";
-					$headers .= "Content-type: text/html; charset=iso-8859-1\n";
-                    // SEND EMAIL
-			 		$this->sendmail($from, $to, $name, $subject,$message,$altbody);
-					return $this->just_notify("Thank you for contacting Helium Writers. We would get in touch with you shortly.");
-				}
-            }
-
+					
+				} 
+			}
         }
         catch(PDOException $exception){
 			echo "Connection error: " . $exception->getMessage();
@@ -524,6 +566,7 @@ public function __construct(){
 
     }
 
+	
 	public function sendbulkmail($from, $subject,$message,$altbody){
 	/* 	$sql = "SELECT fullname, email from bd_trainings";
 		$stmt = $this->con->prepare($sql);
@@ -535,7 +578,7 @@ public function __construct(){
 				$email[]	= $this->wordify($row['email']);
 		} */
 		
-		$email = array("fiafiam20@gmail.com",  "bonjourdapper@gmail.com");
+		$email = array("fiafiam20@gmail.com",  "micahfiafia@gmail.com");
 
 		$fullname = array("Kroye Dapper","DKW Dapper","Bonjour Dapper","Fiafia","Micah Fiafia","Fab-eme Williams");
 		$mail = new PHPMailer\PHPMailer\PHPMailer(true);
@@ -544,8 +587,8 @@ public function __construct(){
 			$mail->isSMTP();                                            // Send using SMTP
 			$mail->Host       = 'localhost';               				// Set the SMTP server to send through
 			$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-			$mail->Username   = 'trainings@bonjourdapper.com';         // SMTP username
-			$mail->Password   = 'Bonjour&Dapper@1991#';                // SMTP password
+			$mail->Username   = 'info@meziefieldinvestment.com';         // SMTP username
+			$mail->Password   = 'Bonj';                // SMTP password
 			$mail->Port       = 25;     								// TCP port to connect to
 
 		//	$mail->SMTPDebug = PHPMailer\PHPMailer\SMTP::DEBUG_SERVER;                                
@@ -561,7 +604,6 @@ public function __construct(){
     		}
 			//$mail->addAddress($to, $to_name);     				// Add a recipient
 			$mail->addReplyTo('fiafiam20@gmail.com', 'MezieField Investment Service Limited');
-		//	$mail->addCC('bonjourdapper@gmail.com');
 			//$mail->addBCC('fiafiam20@gmail.com');
 		
 			// Content
